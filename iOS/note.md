@@ -2,4 +2,12 @@
 
 ## View
 - `UIView`的指定初始化方法為`initWithFrame`
-- 每個UIView對象都有一個`frame`屬性。`frame`屬性的類型是`CGRect`結構體。`CGRect`包含兩個結構體:`orgin:CGPoint` `size:CGSize`
+- `UIView`屬性
+  * `frame`：`CGRect`結構體。`CGRect`包含兩個結構體:`orgin:CGPoint` `size:CGSize`。**定義在父視圖的座標系統**
+  * `bounds`：**定義在視圖自己的座標系統裡**
+  * [frame and bounds參考](http://sourcecodemania.com/views-and-drawing-iphone-development/)
+
+![Image](http://sourcecodemania.com/wp-content/uploads/2012/08/frame-and-bounds.jpg)
+
+-
+
