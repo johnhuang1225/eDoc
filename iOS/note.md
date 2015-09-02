@@ -13,3 +13,6 @@
 - [UIKit Function Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKitFunctionReference/)
 
 
+## ViewController
+- `UIViewController`的指定初始化方法為`initWithNibName:bundle:`
+- 
