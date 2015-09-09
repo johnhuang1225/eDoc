@@ -7,6 +7,7 @@
   - https://www.microsoft.com/en-us/download/confirmation.aspx?id=44266
 
 3. 安裝requests,BeautifulSoup4套件
+  - 安裝到 C:\Python27\Lib\site-packages 目錄下
   - `> pip install requests`
   - `> pip install BeautifulSoup4`
 
