@@ -19,3 +19,6 @@
 
 6. 會在本機端啟動服務器
   - http://localhost:8888
+
+## 直接一步安裝ipython notebook
+Anaconda [下載網址](http://continuum.io/downloads)
