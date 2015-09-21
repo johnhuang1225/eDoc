@@ -1,5 +1,6 @@
 
 ##安裝開發環境
+### window
 1 安裝Anaconda，[Anaconda](http://continuum.io/downloads)
   - 修改PATH，增加`C:\Anaconda\;C:\Anaconda\Scripts`
   
@@ -27,3 +28,43 @@
   
 7 啟動ipython
   `> ipython notebook`
+
+
+### MAC
+[參考](https://chloechen727.wordpress.com/2015/07/26/mac-os-x-plus-python-2-7-and-3-4/)
+#### 透過Homebrew安裝
+1 更新Homebrew，之後安裝pyenv
+```
+> brew update
+> brew install pyenv
+```
+
+2 安裝完後，在`~/.bash_profile`增加一行
+```
+> echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+```
+===
+### pyenv使用
+- 查看能夠安裝的版本
+`> pyenv install --list`
+
+- 查看已安裝的版本
+`> pyenv versions`
+
+- 查看目前版本
+`> pyenv version`
+
+- 安裝anaconda-2.3.0
+`> pyenv install anaconda-2.3.0`
+
+- 切換到anaconda-2.3.0
+`> pyenv global anaconda-2.3.0`
+
+- 安裝套件pyquery
+`> pip install pyquery`
+
+
+
+
+
+
